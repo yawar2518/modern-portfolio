@@ -1,5 +1,8 @@
 # Modern Portfolio - Yawar Abbas
 
+![Alt text](https://github.com/yawar2518/modern-portfolio/blob/main/Modern%20Portfolio/assets/screenshots/Landing-page.png?raw=true)
+
+
 A clean and responsive portfolio website built with HTML and CSS only. Showcases web development skills and services.
 
 ## Features
@@ -48,3 +51,5 @@ A clean and responsive portfolio website built with HTML and CSS only. Showcases
 │       ├── logo.png
 │       └── [other icons]
 ```
+
+
