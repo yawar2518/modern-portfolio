@@ -56,7 +56,7 @@ A clean and responsive portfolio website built with HTML and CSS only. Showcases
 
 ### ABOUT PAGE
 
-![Alt text]([image-url](https://github.com/yawar2518/modern-portfolio/blob/main/Modern%20Portfolio/assets/screenshots/About-page.png?raw=true))
+![Sample Image](/modern-portfolio/Modern Portfolio/assets/screenshots/About-page.png)
 
 ### Services Page
 
