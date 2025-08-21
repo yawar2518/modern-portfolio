@@ -1,0 +1,771 @@
+:root {
+    --text-white: #fff;
+    --text-black: black;
+    --theme-white: white;
+    --theme-black: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    background-color: var(--theme-white);
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    height: 10vh;
+    margin-top: 30px;
+    justify-content: center;
+    background-color: var(--theme-white);
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav img {
+    width: 200px;
+    margin-left: 40px;
+}
+
+header nav .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header nav .nav-list a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin-right: 30px;
+
+}
+
+.btn button {
+    color: white;
+    background-color: #FD6F00;
+    border: none;
+    border-radius: 3px;
+    padding: 7px 13px 7px 13px;
+    cursor: pointer;
+}
+
+/* LANDING PAGE */
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 115px);
+}
+
+.landing-page-flex {
+    padding-top: 100px;
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+}
+
+.content .t1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px;
+    margin-top: 30px;
+}
+
+.content .t2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FD6F00;
+    margin: 10px;
+}
+
+.content .t3 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 15px;
+}
+
+.content .t3 span {
+    margin-left: 170px;
+}
+
+.content .details {
+    font-size: 18px;
+    margin: 30px 0px 20px 10px;
+}
+
+.btn-2 button {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+
+.landing-page-flex .main-img img {
+    display: flex;
+    flex-direction: column;
+    width: 293px;
+    height: 380px;
+    border-radius: 50%;
+    margin-right: 50px;
+}
+
+.icons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.icons ul {
+    font-size: 20px;
+    padding-left: 90px;
+}
+
+/* END SECTION 1 */
+
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 115px);
+}
+
+.about-me-flex {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.about-me-flex .main-img img {
+    display: flex;
+    flex-direction: column;
+    width: 517px;
+    height: 506px;
+    border-radius: 50%;
+    margin-right: 120px;
+    margin-bottom: 138px;
+}
+
+.about-me-flex .content {
+    display: flex;
+    flex-direction: column;
+    margin-right: 220px;
+    padding-bottom: 60px;
+}
+
+.abt-txt {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.abt-para {
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.progress {
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+.prg-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0px 12px 0px;
+}
+
+.prg-box {
+    background-color: #EDECEC;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.prg-fill {
+    background-color: #FD6F00;
+    height: 10px;
+    border-radius: 7px;
+}
+
+.fill-1 {
+    width: 91%;
+}
+
+.fill-2 {
+    width: 75%;
+}
+
+.fill-3 {
+    width: 50%;
+}
+
+.fill-4 {
+    width: 80%;
+}
+
+/* .ecilipse{
+    overflow: visible;
+    top: 1177px;
+    position: absolute;
+    left: 1195px;
+    border: 2px solid #FD6F00;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #EDECEC;
+} */
+
+/* END SECTION 2 */
+
+/* Services */
+
+.services {
+    display: flex;
+    justify-content: center;
+    height: calc(100vh - 115px);
+}
+
+.services-flex {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    align-items: center;
+    padding-top: 95px;
+}
+
+.services-flex .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-flex .content .title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 20px
+}
+
+.services-flex .content .description {
+    text-align: center;
+    font-size: 14px;
+}
+
+.service-cards {
+    display: flex;
+    margin-top: 40px;
+}
+
+.card {
+    background-color: #F8F8F8;
+    border-radius: 8px;
+    width: 18vw;
+    height: 30vh;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.card img {
+    height: 50px;
+    width: 50px;
+    margin: 31px 0px 0px 5px;
+}
+
+.card .title {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0px 10px 5px;
+}
+
+.card .description {
+    font-size: 14px;
+    margin: 10px 5px 0px 5px;
+}
+
+/* CONTACT */
+
+.contact {
+    display: flex;
+    justify-content: center;
+    height: calc(60vh - 115px);
+}
+
+.contact .contact-flex {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    align-items: center;
+    padding-top: 95px;
+}
+
+.contact-flex .title {
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-bottom: 13px;
+
+}
+
+.contact-flex .description {
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.email-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.email-flex input {
+    width: 450px;
+    height: 60px;
+    padding: 28px;
+    font-size: 17px;
+    border-radius: 17px;
+    border: 1px solid #AFAFAF;
+    background: #F8F8F8;
+    margin-right: 14px;
+}
+
+.email-flex .btn button {
+    width: 172px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 17px;
+}
+
+/* END */
+
+/* Page-END */
+
+.page-end {
+    height: calc(100vh - 451px);
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+
+.ending-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.ending-flex .title {
+    font-size: 24px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.50);
+    margin: 50px;
+}
+
+.ending-flex nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.ending-flex .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ending-flex nav .nav-list a {
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--text-black);
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 40px;
+}
+
+.email-flex .icons {
+    font-size: 20px;
+    padding-left: 0px;
+}
+
+.ending-flex .icons ul {
+    padding-left: 0px;
+    margin-top: 80px;
+}
+
+.ending-flex .icons ul .fa-brands {
+    padding: 10px;
+    font-size: 30px;
+}
+
+
+/* END */
+
+/* FOOTER  */
+
+footer {
+    background-color: #545454;
+    color: white;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .text span {
+    color: #FD6F00;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------- */
+
+
+.btn:hover button {
+    background-color: #EDECEC;
+    color: #FD6F00;
+}
+
+.nav-list a:hover {
+    color: #FD6F00;
+}
+
+.ending-flex .nav-list a:hover {
+    color: #FD6F00;
+}
+
+.icons .fa-brands {
+    cursor: pointer;
+}
+
+/* RESPONSIVE DESIGN - MEDIA QUERIES */
+
+/* Tablet Styles (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    header nav {
+        width: 90vw;
+    }
+    
+    header nav img {
+        width: 150px;
+        margin-left: 20px;
+    }
+    
+    .landing-page-flex {
+        width: 90vw;
+    }
+    
+    .content .t3 {
+        font-size: 60px;
+    }
+    
+    .content .t3 span {
+        margin-left: 100px;
+    }
+    
+    .about-me-flex {
+        padding-left: 30px;
+    }
+    
+    .about-me-flex .main-img img {
+        width: 400px;
+        height: 390px;
+        margin-right: 60px;
+    }
+    
+    .about-me-flex .content {
+        margin-right: 100px;
+    }
+    
+    .service-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card {
+        width: 35vw;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Mobile Styles (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    header {
+        height: auto;
+        margin-top: 10px;
+        padding: 10px 0;
+    }
+    
+    header nav {
+        width: 95vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    header nav img {
+        width: 120px;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+    
+    header nav .nav-list {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    
+    header nav .nav-list li {
+        margin-bottom: 10px;
+    }
+    
+    header nav .nav-list a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    
+    /* Landing Page */
+    .landing-page {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    .landing-page-flex {
+        flex-direction: column;
+        width: 95vw;
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .content .t1 {
+        font-size: 20px;
+    }
+    
+    .content .t2 {
+        font-size: 24px;
+    }
+    
+    .content .t3 {
+        font-size: 40px;
+        margin: 10px;
+    }
+    
+    .content .t3 span {
+        margin-left: 0;
+    }
+    
+    .content .details {
+        font-size: 16px;
+        margin: 20px 0;
+    }
+    
+    .landing-page-flex .main-img img {
+        width: 200px;
+        height: 260px;
+        margin-right: 0;
+        margin: 20px auto;
+    }
+    
+    .icons ul {
+        padding-left: 0;
+        justify-content: center;
+    }
+    
+    /* About Section */
+    .about-me {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .about-me-flex {
+        flex-direction: column;
+        width: 95vw;
+        padding-left: 0;
+        align-items: center;
+    }
+    
+    .about-me-flex .main-img img {
+        width: 250px;
+        height: 245px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .about-me-flex .content {
+        margin-right: 0;
+        padding: 0 20px;
+        text-align: center;
+    }
+    
+    .abt-txt {
+        font-size: 30px;
+    }
+    
+    .abt-para {
+        font-size: 14px;
+    }
+    
+    /* Services Section */
+    .services {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .services-flex {
+        width: 95vw;
+        padding-top: 50px;
+    }
+    
+    .services-flex .content .title {
+        font-size: 35px;
+    }
+    
+    .services-flex .content .description {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+    
+    .service-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card {
+        width: 90%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+    
+    .card img {
+        margin: 10px 0;
+    }
+    
+    /* Contact Section */
+    .contact {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    .contact .contact-flex {
+        width: 95vw;
+        padding-top: 50px;
+    }
+    
+    .contact-flex .title {
+        font-size: 35px;
+        text-align: center;
+    }
+    
+    .contact-flex .description {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 10px 30px;
+    }
+    
+    .email-flex {
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .email-flex input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .email-flex .btn button {
+        width: 100%;
+    }
+    
+    /* Footer Section */
+    .page-end {
+        height: auto;
+        padding: 30px 0;
+    }
+    
+    .ending-flex .title {
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    .ending-flex nav .nav-list {
+        flex-direction: column;
+    }
+    
+    .ending-flex nav .nav-list a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .ending-flex .icons ul {
+        margin-top: 30px;
+    }
+    
+    footer {
+        height: auto;
+        padding: 15px 10px;
+        text-align: center;
+    }
+}
+
+/* Small Mobile Styles (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .content .t3 {
+        font-size: 32px;
+    }
+    
+    .services-flex .content .title,
+    .contact-flex .title {
+        font-size: 28px;
+    }
+    
+    .card {
+        width: 95%;
+    }
+    
+    .email-flex {
+        width: 95%;
+    }
+}
+
+/* Large Desktop Styles (min-width: 1440px) */
+@media screen and (min-width: 1440px) {
+    header nav {
+        width: 70vw;
+    }
+    
+    .landing-page-flex {
+        width: 70vw;
+    }
+    
+    .services-flex {
+        width: 70vw;
+    }
+    
+    .contact .contact-flex {
+        width: 70vw;
+    }
+}
