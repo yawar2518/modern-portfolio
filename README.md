@@ -52,4 +52,18 @@ A clean and responsive portfolio website built with HTML and CSS only. Showcases
 │       └── [other icons]
 ```
 
+## Screen Shots
+
+### ABOUT PAGE
+
+![Alt text]([image-url](https://github.com/yawar2518/modern-portfolio/blob/main/Modern%20Portfolio/assets/screenshots/About-page.png?raw=true))
+
+### Services Page
+
+![Alt text](https://github.com/yawar2518/modern-portfolio/blob/main/Modern%20Portfolio/assets/screenshots/Service-page.png?raw=true)
+
+### Contact Page
+
+![Alt text](https://github.com/yawar2518/modern-portfolio/blob/main/Modern%20Portfolio/assets/screenshots/Contact-page.png?raw=true)
+
 
